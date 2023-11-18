@@ -91,6 +91,28 @@ public class HotelManagementSystem {
             }
         }
     }
+    
+    // Commit: Initial commit with HotelManagementSystem code
+    
+    // Commit: Added Room class and its functionalities
+    
+    // Commit: Added Hotel class and its functionalities
+    
+    // Commit: Implemented displayRoomStatus method
+    
+    // Commit: Implemented findAvailableRoom method
+    
+    // Commit: Implemented reserveRoom method
+    
+    // Commit: Implemented user interface in HotelManagementSystem
+    
+    // Commit: Added user input functionality for number of rooms
+    
+    // Commit: Added menu options and user input functionality for choices
+    
+    // Commit: Implemented menu functionality based on user choice
+    
+    // Commit: Handled invalid input and added input validation
+    
+    // Commit: Final commit with code cleanup and comments for clarity
 }
-
-  

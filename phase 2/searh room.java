@@ -9,11 +9,13 @@ class Room {
     public Room(int roomNumber) {
         this.roomNumber = roomNumber;
         this.isOccupied = false;
+
     }
 
+    
     public int getRoomNumber() {
         return roomNumber;
-        
+
     }
 
     public boolean isOccupied() {

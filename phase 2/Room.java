@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class Room {
+public class Room {
     private int roomNumber;
     private boolean isOccupied;
 
@@ -12,8 +12,6 @@ class Room {
 
     }
 
-
-     
     public int getRoomNumber() {
         return roomNumber;
 
@@ -59,64 +57,64 @@ class Hotel {
     }
 }
 
-public class HotelManagementSystem {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+// public class HotelManagementSystem {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the number of rooms in the hotel: ");
-        int numberOfRooms = scanner.nextInt();
+//         System.out.print("Enter the number of rooms in the hotel: ");
+//         int numberOfRooms = scanner.nextInt();
 
-        Hotel hotel = new Hotel(numberOfRooms);
+//         Hotel hotel = new Hotel(numberOfRooms);
 
-        while (true) {
-            System.out.println("\n1. Display Room Status");
-            System.out.println("2. Search and Reserve Room");
-            System.out.println("3. Exit");
-            System.out.print("Enter your choice: ");
-            int choice = scanner.nextInt();
+//         while (true) {
+//             System.out.println("\n1. Display Room Status");
+//             System.out.println("2. Search and Reserve Room");
+//             System.out.println("3. Exit");
+//             System.out.print("Enter your choice: ");
+//             int choice = scanner.nextInt();
 
-            switch (choice) {
-                case 1:
-                    hotel.displayRoomStatus();
-                    break;
-                case 2:
-                    Room availableRoom = hotel.findAvailableRoom();
-                    if (availableRoom != null) {
-                        hotel.reserveRoom(availableRoom);
-                    } else {
-                        System.out.println("No vacant rooms available.");
-                    }
-                    break;
-                case 3:
-                    scanner.close();
-                    System.exit(0);
-                default:
-                    System.out.println("Invalid choice. Please try again.");
-            }
-        }
-    }
-    
+//             switch (choice) {
+//                 case 1:
+//                     hotel.displayRoomStatus();
+//                     break;
+//                 case 2:
+//                     Room availableRoom = hotel.findAvailableRoom();
+//                     if (availableRoom != null) {
+//                         hotel.reserveRoom(availableRoom);
+//                     } else {
+//                         System.out.println("No vacant rooms available.");
+//                     }
+//                     break;
+//                 case 3:
+//                     scanner.close();
+//                     System.exit(0);
+//                 default:
+//                     System.out.println("Invalid choice. Please try again.");
+//             }
+//         }
+//     }
+
     // Commit: Initial commit with HotelManagementSystem code
-    
+
     // Commit: Added Room class and its functionalities
-    
+
     // Commit: Added Hotel class and its functionalities
-    
+
     // Commit: Implemented displayRoomStatus method
-    
+
     // Commit: Implemented findAvailableRoom method
-    
+
     // Commit: Implemented reserveRoom method
-    
+
     // Commit: Implemented user interface in HotelManagementSystem
-    
+
     // Commit: Added user input functionality for number of rooms
-    
+
     // Commit: Added menu options and user input functionality for choices
-    
+
     // Commit: Implemented menu functionality based on user choice
-    
+
     // Commit: Handled invalid input and added input validation
-    
+
     // Commit: Final commit with code cleanup and comments for clarity
-} 
+}

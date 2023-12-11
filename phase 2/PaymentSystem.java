@@ -1,5 +1,3 @@
-package Payment;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -98,7 +96,8 @@ class PaymentSystem {
         }
     }
 
-    // PaymentRecord class represents a payment record with payment method and amount
+    // PaymentRecord class represents a payment record with payment method and
+    // amount
     public static class PaymentRecord {
         private String paymentMethod;
         private double amount;

@@ -1,34 +1,40 @@
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// Represents a room in a hotel
 public class Room {
     private int roomNumber;
     private boolean isOccupied;
 
+    // Constructor initializing a room with a room number
     public Room(int roomNumber) {
         this.roomNumber = roomNumber;
         this.isOccupied = false;
-
     }
 
+    // Retrieves the room number
     public int getRoomNumber() {
         return roomNumber;
-
     }
 
+    // Checks if the room is occupied
     public boolean isOccupied() {
         return isOccupied;
     }
 
+    // Sets the occupied status of the room
     public void setOccupied(boolean occupied) {
         isOccupied = occupied;
     }
 }
 
+// Represents a hotel with rooms
 class Hotel {
     private List<Room> rooms;
 
+    // Constructor initializing the hotel with a specified number of rooms
     public Hotel(int numberOfRooms) {
         rooms = new ArrayList<>();
         for (int i = 1; i <= numberOfRooms; i++) {
@@ -36,12 +42,14 @@ class Hotel {
         }
     }
 
+    // Displays the status (occupied or vacant) of all rooms in the hotel
     public void displayRoomStatus() {
         for (Room room : rooms) {
             System.out.println("Room " + room.getRoomNumber() + ": " + (room.isOccupied() ? "Occupied" : "Vacant"));
         }
     }
 
+    // Finds the first available (vacant) room in the hotel
     public Room findAvailableRoom() {
         for (Room room : rooms) {
             if (!room.isOccupied()) {
@@ -51,70 +59,9 @@ class Hotel {
         return null;
     }
 
+    // Reserves a specified room by marking it as occupied
     public void reserveRoom(Room room) {
         room.setOccupied(true);
         System.out.println("Room " + room.getRoomNumber() + " has been reserved.");
     }
-}
-
-// public class HotelManagementSystem {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-
-//         System.out.print("Enter the number of rooms in the hotel: ");
-//         int numberOfRooms = scanner.nextInt();
-
-//         Hotel hotel = new Hotel(numberOfRooms);
-
-//         while (true) {
-//             System.out.println("\n1. Display Room Status");
-//             System.out.println("2. Search and Reserve Room");
-//             System.out.println("3. Exit");
-//             System.out.print("Enter your choice: ");
-//             int choice = scanner.nextInt();
-
-//             switch (choice) {
-//                 case 1:
-//                     hotel.displayRoomStatus();
-//                     break;
-//                 case 2:
-//                     Room availableRoom = hotel.findAvailableRoom();
-//                     if (availableRoom != null) {
-//                         hotel.reserveRoom(availableRoom);
-//                     } else {
-//                         System.out.println("No vacant rooms available.");
-//                     }
-//                     break;
-//                 case 3:
-//                     scanner.close();
-//                     System.exit(0);
-//                 default:
-//                     System.out.println("Invalid choice. Please try again.");
-//             }
-//         }
-//     }
-
-    // Commit: Initial commit with HotelManagementSystem code
-
-    // Commit: Added Room class and its functionalities
-
-    // Commit: Added Hotel class and its functionalities
-
-    // Commit: Implemented displayRoomStatus method
-
-    // Commit: Implemented findAvailableRoom method
-
-    // Commit: Implemented reserveRoom method
-
-    // Commit: Implemented user interface in HotelManagementSystem
-
-    // Commit: Added user input functionality for number of rooms
-
-    // Commit: Added menu options and user input functionality for choices
-
-    // Commit: Implemented menu functionality based on user choice
-
-    // Commit: Handled invalid input and added input validation
-
-    // Commit: Final commit with code cleanup and comments for clarity
 }

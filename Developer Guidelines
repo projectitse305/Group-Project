@@ -1,87 +1,85 @@
 # Developrs GuideLines:
-> Having a set of guidelines,can improve your abilities as a developer and also help you to make decisions ahead of time rather than on the spot.
+> Having a set of guidelines, can improve your abilities as a developer and also help you to make decisions ahead of time rather than on the spot.
 
 
-> Here we list a guidlines that could help you in your process of deveploment ,this covers:
+> Here we list guidelines that could help you in your process of development, this covers:
 
-. communocation policy
-. coding instrcutions
-. Documnetations
+. communication policy
+. Coding instructions
+. Documentations
 . Bugs and issues tracking
 
 
 ## Communication policy:
 
- an effective communication policy reduces disputes and miscommunications by engoraging meaningful communication among developers.
- Here some of the most improtant policies:
+ An effective communication policy reduces disputes and miscommunications by encouraging meaningful communication among developers.
+ Here are some of the most important policies:
  1. the communication should be truthful and ethical.
- 2. Developers must Be open to feedbacks from other developers or users.
- 3. Developers  communicate through the Email and GoogleGroups ( for instant replays you can communicate through the MSTeams ).
+ 2. Developers must Be open to feedback from other developers or users.
+ 3. Developers  communicate through Email and MSTeams ( for instant replays you can communicate through the MSTeams ).
  
- *If you are a user and have you a quary about the project feel free to conntact the developers through the Email or googleGroups:
-  . Google groups: Libroxlibrary@googlegroups.com  
-  .  Email : Libroxlibrary@gmail.com 
+ *If you are a user and have a query about the project feel free to contact the developers through Email or MSTeams:
+  . MSTeam: Hotelify@outlook.com  
+  . Email: Hotelify@gmail.com 
   
 
-## coding instrcutions:
+## Coding instructions:
 
-# code styling Guidlines:
+# Code styling Guidelines:
 
-1.Naming local variables and constant , Funcation:
- naming funcation and varibles clearly will help the others to understand the use of these  attributes.
- . varibales name should be meaningful.
- . The name of the funcation should be clear and state the puporse of using the method .
- . the classes names should be related to it's purpose .
+1. Naming local variables and constant, Function:
+ naming functions and variables clearly will help others to understand the use of these attributes.
+ . variables' names should be meaningful.
+ . The name of the function should be clear and state the purpose of using the method.
+ . the class names should be related to their purpose.
  . Avoid using the same identification more than once. 
 
  
 2. Here are some additional coding style suggestions that can enhance the code's readability and comprehension:
- . code must be orginzed and clear to devepler.
- . Add comments to explain the code .
+ . code must be organized and clear to develop.
+ . Add comments to explain the code.
  . each function of the code is specified to perform one task only, so it's easy to developer understand it.
- . varaibles data type are clear to developer.
- . Coding style should be simple to easy maintain it 
+ . variables data types are clear to the developer.
+ . The coding style should be simple to easily maintain it 
 
 
-# code documentation:
+# Code documentation:
 
-1. provide documnets describe the flow of system .
-2. live notifications for any updates in document.
-3. mark functions that are uncompelete or under processing.
-
-
-# bug and issue tracking :
+1. provide documents describing the flow of the system.
+2. live notifications for any updates in the document.
+3. Mark functions that are incomplete or under processing.
 
 
-1. use team proejct management tools : 
+# Bug and issue tracking :
 
- 	Such as : https://asana.com/  
-  to mantian the proejct tasks of handling bugs and issues , the website could assign 
-  tasks to specific developrs and developres could monitor the progress of a certain task if it's under processing or compelete or created .
+
+1. Use team project management tools : 
+
+ 	Such as https://asana.com/  
+  to maintain the project tasks of handling bugs and issues, the website could assign 
+  tasks to specific developers and developers could monitor the progress of a certain task if it's under processing or completed or created.
   
-2.provide a details information about the bug or issue. providing the user with specific format to follow when reporting the bug or issue:
+2. provide details information about the bug or issue. providing the user with a specific format to follow when reporting the bug or issue:
 
-  . Issue/Tilte: the name for bug or issue.
-  . Submitted by : The developer or user  filed a bug report.
-  . Date : when the issue occure
-  . Time of occurrence: for how long the bug last .
-  . Action Performed : The action that casue the occurnes of bug .
-  . Expected Result :  how the software should response when the bug occure.
-  . Actual Results: what was the actual response of the software.
-  . Error Message :  what was the message appread when the bug occurs
-  . Source the bug : link the bug or issue so developers can locate it faster
-  . Frequncey of the bug:
+  . Issue/Title: the name of the bug or issue.
+  . Submitted by: The developer or user  filed a bug report.
+  . Date: When the issue occurs.
+  . Time of occurrence: for how long the bug lasts.
+  . Action Performed: The action that causes the occurrences of the bug.
+  . Expected Result:  how the software should respond when the bug occurs.
+  . Actual Results: what was the actual response of the software?
+  . Error Message:  what was the message that appeared when the bug occurs
+  . Source the bug: link the bug or issue so developers can locate it faster
+  . Frequency of the bug:
      - every time
      - hardly ever
      - occasionally 
      - once
-  . Priprity of the bug :
+  . Priority of the bug :
      - Low
      - Medium
      - High
      - Critical
   . Upload a video or screenshots
-  . status description: give a brief descriptoin of status of the bug 
-  . Fixed by : The developer name who fixed the bug or issue.
-  
- 
+  . Status description: give a brief description of the status of the bug.
+  . Fixed by: The developer name who fixed the bug or issue.

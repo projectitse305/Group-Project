@@ -24,6 +24,10 @@
 - **Data Validation**: Server-side and client-side data validation before processing.
 - **Automated Testing**: Unit tests, integration tests, and end-to-end tests to ensure the software is working as expected.
 - **Continuous Integration/Continuous Deployment (CI/CD)**: Automated pipelines for testing and deploying the software.
+- **(planned) User Interface Improvements**: Enhance the user interface for better usability and accessibility.
+- **(planned) Integration with External Systems**: Integrate with external systems such as accounting software for seamless financial management.
+- **(planned) Reporting and Analytics**: Implement reporting and analytics features to provide insights into hotel performance and guest preferences.
+- **(planned) Mobile Application**: Develop a mobile application for guests to manage reservations and access hotel services on the go.
 
 
 ## Communication

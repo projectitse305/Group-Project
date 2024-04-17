@@ -1,5 +1,8 @@
 # Hotelify (ITSE 476)
 
+**Hotelify is a comprehensive software solution designed to streamline and automate hotel operations. It includes features for room reservation, guest management, and payment processing.**
+
+
 
 ## Requirements
 

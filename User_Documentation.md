@@ -3,19 +3,8 @@
 ## 1. Introduction
 Hotelify is a comprehensive software solution designed to streamline and automate hotel operations. It includes features for room reservation, guest management, and payment processing. This document provides an overview of Hotelify's features, functionality, and usage instructions.
 
-## 2. Features
 
-**Room Management**: Hotelify allows the hotel staff to add, view, and manage room details such as room number, occupancy status, and reservation status.
-
-**Reservation System**: Hotelify enables guests to reserve rooms online or through the hotel staff, with real-time updates on room availability.
-
-**User Authentication**: Hotelify provides secure user registration and login functionality to manage staff and guest accounts.
-
-**Payment Processing**: Hotelify facilitates various payment methods including card, cash, and online payments, with detailed payment records.
-
-**Invoice Management**: Hotelify manages invoices for guest bookings, allowing staff to create, view, and delete invoices as needed.
-
-## 3. System Components
+## 2. System Components
 
 **Room Class**: Represents individual rooms in the hotel, including methods to retrieve room details and manage occupancy status.
 
@@ -27,7 +16,7 @@ Hotelify is a comprehensive software solution designed to streamline and automat
 
 **Documentation Class**: Provides this documentation file and any additional documentation related to the system.
 
-## 4. Usage Instructions
+## 3. Usage Instructions
 
 **Room Management**: Staff can use the Hotel class methods to add, view, and manage room details. They can also check room availability and reserve rooms for guests.
 
@@ -39,7 +28,7 @@ Hotelify is a comprehensive software solution designed to streamline and automat
 
 **Invoice Management**: Staff can create invoices for guest bookings and manage them using the InvoiceStorage class methods. They can view, delete, and update invoice details as needed.
 
-## 5. Future Enhancements
+## 4. Future Enhancements
 
 **User Interface**: Improve the user interface for better usability and accessibility.
 
@@ -49,5 +38,5 @@ Hotelify is a comprehensive software solution designed to streamline and automat
 
 **Mobile Application**: Develop a mobile application for guests to manage reservations and access hotel services on the go.
 
-## 6. Conclusion
+## 5. Conclusion
 Hotelify provides a comprehensive solution for hotels to streamline their operations and enhance guest experience. With features for room management, reservation, payment processing, and invoice management, Hotelify offers efficiency and convenience for both staff and guests.

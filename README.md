@@ -1,8 +1,6 @@
 # Hotelify (ITSE 476)
 
 
-# Requirements and Features
-
 ## Requirements
 
 - **Operating System**: Cross-platform (Windows 10 or newer, macOS Catalina or newer, Linux distributions like Ubuntu 18.04 or newer).

@@ -1,5 +1,5 @@
-# Group-Project
-ITSE 476
+# Hotelify (ITSE 476)
+
 
 # Requirements and Features
 

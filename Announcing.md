@@ -1,5 +1,5 @@
 Announcement:
-We think it's crucial to have succinct yet impactful language on the homepage of our online library management system (LibroX) that includes crucial keywords. This will be a crucial component of the system's architecture, and as it is a project for a university course, we won't be able to announce it publicly.
+We think it's crucial to have succinct yet impactful language on the homepage of our online library management system (Hotelify) that includes crucial keywords. This will be a crucial component of the system's architecture, and as it is a project for a university course, we won't be able to announce it publicly.
 
 Example:
 Announcement: Introducing Our Open-Source Hotel Management App!

@@ -4,7 +4,7 @@
 ## Our team went through several steps to select a name for the project we made a list of names that reflect the values of the project.
 ## The list of possible names:
 - HotelTech
-- HotelifyMaster
+- Hotelify
 - HotelPro
 
 ## Then, we took a vote among the team members to determine the name of the project.

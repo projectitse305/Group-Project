@@ -15,6 +15,3 @@ async def main(ps4_ip: str = '1.1.1.2'):
             input(mp)
 
 
-if __name__ == '__main__':
-    loop = asyncio.new_event_loop()
-    loop.run_until_complete(main())
